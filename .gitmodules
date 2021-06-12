@@ -1,0 +1,3 @@
+[submodule "docker-bitlbee-libpurple"]
+	path = docker-bitlbee-libpurple
+	url = https://github.com/ezkrg/docker-bitlbee-libpurple
