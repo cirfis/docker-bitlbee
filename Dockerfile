@@ -1,7 +1,8 @@
+ARG ALPINE_VERSION=3.12
+
 FROM alpine:${ALPINE_VERSION} as bitlbee-build
 LABEL org.opencontainers.image.source https://github.com/cirfis/docker-bitlbee
 
-ARG ALPINE_VERSION=3.12
 ARG BITLBEE_VERSION=3.6-1
 
 RUN apk add --no-cache --update \
